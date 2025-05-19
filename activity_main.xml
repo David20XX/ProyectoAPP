@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <button
+       android:id="@+id/btnRegistro"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Registro" />
+    
+    <button
+       android:id="@+id/btnAcceder"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Acceder"
+       android:layout_marginTop="16dp"/>
+    </LinearLayout>
