@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">Planificador</string>
+
+    <!-- MainActivity -->
+    <string name="btn_registro">Registro</string>
+    <string name="btn_acceder">Acceder</string>
+
+    <!-- RegistroActivity -->
+    <string name="hint_usuario">Nombre de usuario</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="mensaje_registro_exitoso">Registrado correctamente</string>
+
+    <!-- LoginActivity -->
+    <string name="btn_iniciar_sesion">Iniciar sesión</string>
+    <string name="mensaje_campos_vacios">Por favor completa todos los campos</string>
+</resources>

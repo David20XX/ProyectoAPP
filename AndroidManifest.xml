@@ -1,0 +1,3 @@
+<activity android:name=".MainActivity" />
+<activity android:name=".RegistroActivity" />
+<activity android:name=".LoginActivity" />
