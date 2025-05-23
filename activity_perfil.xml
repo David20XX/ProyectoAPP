@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/inputNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/inputEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edad"
+            android:inputType="number"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/inputCumple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cumpleaños (ej: 12/06)"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/inputOcupacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ocupación"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/inputPasatiempos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pasatiempos"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrar"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+</ScrollView>
